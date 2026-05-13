@@ -44,3 +44,24 @@ title-slide-attributes:
 :::
 
 ![Thomas et al, 2023](src/bl-abstract.png)
+
+## Add animations
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3]{style="opacity:0.25"}
+:::
+:::
+
+
+::: {.fragment .semi-fade-out}
+![](src/common_problems.png){fig-align="center"}
+:::
+
+::: {.fragment .fade-in}
+![](src/note.png){.absolute bottom=0 left=0}
+:::
+
+::: {.fragment .fade-in}
+![](src/bad_code.png){.absolute top=50 right=50 height="600"}
+:::
