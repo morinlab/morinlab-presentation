@@ -65,3 +65,31 @@ title-slide-attributes:
 ::: {.fragment .fade-in}
 ![](src/bad_code.png){.absolute top=50 right=50 height="600"}
 :::
+
+## Highlight animations
+
+::: {.sectionhead}
+1 [2 3]{style="opacity:0.25"}
+:::
+
+:::: columns
+
+::: {.column width="45%"}
+::: {.fragment .fade-in}
+![](src/gc.png){.absolute top="20%" left="0" width="600"}
+:::
+:::
+
+::: {.fragment .fade-in}
+::: {data-id="box1" style="background: transparent; width: 70px; height: 70px; border-radius: 4px; box-shadow: 0px 0px 0px 8px rgba(71,148,80); position: relative; top: 175px; left: 115px;"}
+:::
+::: {data-id="box2" style="background: transparent; width: 100px; height: 90px; border-radius: 4px; box-shadow: 0px 0px 0px 8px rgba(71,148,80); position: relative; top: 275px; left: 385px;"}
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-in}
+![](src/dlbcl_coo.jpg){.absolute top="20%" right="0" width="450"}
+:::
+:::
+::::
