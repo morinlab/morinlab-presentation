@@ -1,9 +1,7 @@
 ---
 title: Untitled
-format:
-  morinlab-presentation-html: default
+format: morinlab-presentation-revealjs
 author: Kdreval
-date: last-modified
 ---
 
 ## Introduction
