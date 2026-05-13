@@ -49,7 +49,7 @@ title-slide-attributes:
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1]{style="opacity:0.25"} 2 [3]{style="opacity:0.25"}
+1 [2 3 4]{style="opacity:0.25"}
 :::
 :::
 
@@ -68,8 +68,10 @@ title-slide-attributes:
 
 ## Highlight animations
 
+::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3]{style="opacity:0.25"}
+1 [2 3 4]{style="opacity:0.25"}
+:::
 :::
 
 :::: columns
@@ -90,6 +92,69 @@ title-slide-attributes:
 ::: {.column width="50%"}
 ::: {.fragment .fade-in}
 ![](src/dlbcl_coo.jpg){.absolute top="20%" right="0" width="450"}
+:::
+:::
+::::
+
+
+# Another section title
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4]{style="opacity:0.25"}
+:::
+:::
+
+## Columns with text
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4]{style="opacity:0.25"}
+:::
+:::
+
+:::: {.columns}
+
+::: {.column}
+::: {.fragment}
+### Positive {style="color:green; text-align: center;"}
+:::
+- Point 1
+- Point 2
+- Point 3
+:::
+
+::: {.column}
+::: {.fragment}
+### Negative {style="color:red; text-align: center;"}
+:::
+
+- Point 4
+- Point 5
+- Point 6
+- Point 7
+
+:::
+::::
+
+## Columns with image + text
+
+:::: columns
+
+::: {.column width="30%"}
+![](src/dlbcl.jpg){.absolute top="30%" left="0" width="250" height="250"}
+:::
+
+::: {.column width="65%"}
+
+- This is DLBCL
+- Most common NHL
+
+:::{.fragment}
+##### Key Facts
+- Fast-growing
+- Has many subtypes
+- ...
 :::
 :::
 ::::
