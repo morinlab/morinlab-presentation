@@ -105,7 +105,7 @@ title-slide-attributes:
 :::
 :::
 
-## Columns with text
+## Columns with text{style="text-transform:none;"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -136,6 +136,8 @@ title-slide-attributes:
 
 :::
 ::::
+
+Did you notice that the slide title is not capitalized here?
 
 ## Columns with image + text
 
@@ -205,7 +207,7 @@ flowchart TD
 :::
 :::
 
-## How do I get the GAMBLR.data?
+## Show some code
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -236,10 +238,6 @@ devtools::install_github(
 The impact of temperature on ozone level
 
 ```{r}
-#| label: fig-airquality
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-
 library(ggplot2)
 
 ggplot(airquality, aes(Temp, Ozone)) + 
