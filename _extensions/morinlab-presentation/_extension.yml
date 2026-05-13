@@ -13,3 +13,5 @@ contributes:
             transition-speed: default
             logo: lab_logo.png
             incremental: true
+            slide-number: true
+            code-fold: true

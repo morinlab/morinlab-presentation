@@ -225,6 +225,28 @@ devtools::install_github(
 ```
 
 
+## Render plot from R
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4]{style="opacity:0.25"}
+:::
+:::
+
+The impact of temperature on ozone level
+
+```{r}
+#| label: fig-airquality
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+
 # Final section
 
 ::: {.absolute top="0" left="100%"}
