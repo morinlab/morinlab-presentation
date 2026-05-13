@@ -13,7 +13,7 @@ date-format: long
 fig-align: center
 from: markdown+emoji
 title-slide-attributes:
-    data-background-image: dlbcl.jpg
+    data-background-image: src/dlbcl.jpg
     data-background-size: fill
     data-background-opacity: "0.25"
 ---
