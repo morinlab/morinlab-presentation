@@ -6,4 +6,10 @@ contributes:
     formats:
         revealjs:
             embed-resources: true
-
+            footer: "[https://github.com/morinlab](https://github.com/morinlab)&nbsp;&nbsp;&nbsp;"
+            theme: [moon, custom.scss]
+            preview-links: auto
+            transition: slide
+            transition-speed: default
+            logo: lab_logo.png
+            incremental: true

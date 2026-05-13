@@ -1,7 +1,13 @@
 ---
-title: Untitled
+title: MorinLab manuscript template
+author: Morin Lab at SFU
 format: morinlab-presentation-revealjs
-author: Kdreval
+institute: |
+    Morin Lab \
+    ^*1*^Department of Basic and Translational Research, BC Cancer Research Institute \
+    ^*2*^Simon Fraser University
+    ^*3*^Centre for Lymphoid Cancer, BC Cancer Research Institute
+date: now
 ---
 
 ## Introduction
