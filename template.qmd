@@ -5,7 +5,7 @@ format: morinlab-presentation-revealjs
 institute: |
     Morin Lab \
     ^*1*^Department of Basic and Translational Research, BC Cancer Research Institute \
-    ^*2*^Simon Fraser University
+    ^*2*^Simon Fraser University \
     ^*3*^Centre for Lymphoid Cancer, BC Cancer Research Institute
 date: now
 ---
