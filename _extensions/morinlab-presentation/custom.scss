@@ -53,3 +53,13 @@ $code-block-border-color: #000000;
 .reveal .progress {
     height: 1.5%;
   }
+
+
+.reveal .quarto-title-authors {
+    font-size: 0.7em !important;
+  }
+
+.reveal .quarto-title-block .date {
+  font-size: 0.5em !important;
+  line-height: 1.1 !important;
+}
