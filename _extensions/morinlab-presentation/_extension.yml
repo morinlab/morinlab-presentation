@@ -4,15 +4,13 @@ version: 1.0.0
 quarto-required: ">=1.5.0"
 contributes:
   formats:
-date: now
-format:
-  revealjs:
-    footer: "[https://github.com/morinlab/GAMBLR](https://github.com/morinlab/GAMBLR)&nbsp;&nbsp;&nbsp;"
-    theme: [moon, custom.scss]
-    preview-links: auto
-    transition: slide
-    transition-speed: default
-    embed-resources: true
-    logo: lab_logo.png
-    incremental: true
+    revealjs:
+      footer: "[https://github.com/morinlab/GAMBLR](https://github.com/morinlab/GAMBLR)&nbsp;&nbsp;&nbsp;"
+      theme: [moon, custom.scss]
+      preview-links: auto
+      transition: slide
+      transition-speed: default
+      embed-resources: true
+      logo: lab_logo.png
+      incremental: true
 
