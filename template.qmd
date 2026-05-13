@@ -10,6 +10,12 @@ institute: |
     ^*3*^Centre for Lymphoid Cancer, BC Cancer Research Institute
 date: now
 date-format: long
+fig-align: center
+from: markdown+emoji
+title-slide-attributes:
+    data-background-image: dlbcl.jpg
+    data-background-size: fill
+    data-background-opacity: "0.25"
 ---
 
 ## Introduction
