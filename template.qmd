@@ -139,6 +139,12 @@ title-slide-attributes:
 
 ## Columns with image + text
 
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4]{style="opacity:0.25"}
+:::
+:::
+
 :::: columns
 
 ::: {.column width="30%"}
@@ -158,3 +164,122 @@ title-slide-attributes:
 :::
 :::
 ::::
+
+## Columns + diagram  {style="font-size: 70%;"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4]{style="opacity:0.25"}
+:::
+:::
+
+:::: columns
+
+::: {.column width="65%"}
+* Notice how the font is different here for the title slide and the items in the list
+* [GAMBLR.data](https://github.com/morinlab/GAMBLR.data) - collection of genomic data for analysis of Mature B-cell neoplasms
+* [GAMBLR.helpers](https://github.com/morinlab/GAMBLR.helpers) - a set of low-level functions for data operation
+
+:::
+
+::: {.column width="30%"}
+
+```{mermaid}
+flowchart TD
+  A("GAMBLR.data") --> B("GAMBLR.helpers")
+  B --> C("GAMBLR.utils")
+  C --> D("GAMBLR.viz")
+  D --> E{"GAMBL member?"}
+  E -- YES --> F("GAMBLR.results")
+  E -- NO --> A
+```
+
+:::
+::::
+
+# New section
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4]{style="opacity:0.25"}
+:::
+:::
+
+## How do I get the GAMBLR.data?
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4]{style="opacity:0.25"}
+:::
+:::
+
+We can show the code `in text` or as a separate code block.
+
+```r
+if (!require("devtools")) install.packages("devtools")
+
+devtools::install_github(
+    "morinlab/GAMBLR.data",
+    repos = BiocManager::repositories()
+)
+```
+
+
+# Final section
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3]{style="opacity:0.25"} 4
+:::
+:::
+
+## Acknowledgments
+
+::: {layout="[[1,1], [0.2]]"}
+![](src/team.png)
+
+:::: columns
+
+::: {.column style="font-size: 65%;"}
+
+##### Morin Lab
+
+Ryan D. Morin<br/>
+Manuela Cruz<br/>
+Jasper Wong<br/>
+Aixiang Jiang<br/>
+Krysta Coyle<br/>
+Quratulain Qureshi<br/>
+Haya Sha’alan<br/>
+Sierra Gillis<br/>
+Malki Wijesinghe<br/>
+Kurt Yakimovich<br/>
+Houman L. Mirhosseini<br/>
+Callum Brown
+
+
+:::
+
+::: {.column style="font-size: 65%;"}
+
+##### CLC
+
+David W. Scott<br/>
+Christian Steidl<br/>
+Laura K. Hilton<br/>
+Barbara Meissner<br/>
+Brett Collinge<br/>
+
+##### Lab Alumni
+
+Adam Mattsson<br/>
+Vladimir Souza<br/>
+Christopher Rushton<br/>
+Nicole Thomas<br/>
+Prasath Pararajalingam
+
+:::
+::::
+
+![](src/logos.png)
+:::
