@@ -245,18 +245,13 @@ devtools::install_github(
 ##### Morin Lab
 
 Ryan D. Morin<br/>
-Manuela Cruz<br/>
 Jasper Wong<br/>
 Aixiang Jiang<br/>
-Krysta Coyle<br/>
-Quratulain Qureshi<br/>
-Haya Sha’alan<br/>
 Sierra Gillis<br/>
-Malki Wijesinghe<br/>
-Kurt Yakimovich<br/>
 Houman L. Mirhosseini<br/>
-Callum Brown
-
+Giuliano Banco<br/>
+Callum Brown<br/>
+Luke Klossok
 
 :::
 
@@ -272,11 +267,11 @@ Brett Collinge<br/>
 
 ##### Lab Alumni
 
-Adam Mattsson<br/>
-Vladimir Souza<br/>
-Christopher Rushton<br/>
-Nicole Thomas<br/>
-Prasath Pararajalingam
+Malki Wijesinghe<br/>
+Kurt Yakimovich<br/>
+Manuela Cruz<br/>
+Krysta Coyle<br/>
+Quratulain Qureshi<br/>
 
 :::
 ::::
