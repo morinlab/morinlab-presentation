@@ -11,6 +11,7 @@ institute: |
 date: now
 date-format: long
 fig-align: center
+fig-format: svg
 from: markdown+emoji
 title-slide-attributes:
     data-background-image: src/dlbcl.jpg
@@ -26,6 +27,15 @@ title-slide-attributes:
 - Methods
 - Results
 - Discussion
+
+- This slide has speaker notes (press `S` to see them)
+
+:::{.notes}
+
+- add this section at the end of your slide's content to have speaker notes
+- during the presentation, press the S key to show the presentation speaker view
+
+:::
 
 # Section title slide
 
