@@ -105,7 +105,7 @@ title-slide-attributes:
 :::
 :::
 
-## Columns with text{style="text-transform:none;"}
+## Columns with text {.keep-case}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -137,7 +137,9 @@ title-slide-attributes:
 :::
 ::::
 
+::: {.fragment}
 Did you notice that the slide title is not capitalized here?
+:::
 
 ## Columns with image + text
 
