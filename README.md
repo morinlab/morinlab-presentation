@@ -57,3 +57,10 @@ The main content in the file provided for you out of the box contains several se
 
 This file should be adjusted accordingly to have your presentation content.
 
+## Inserting images
+
+The external (not code-computed) images can be added to the slide following the standard Quarto [markdown practices](https://quarto.org/docs/authoring/figures.html). For your convenience, several re-used figures are already provided with this extension (Morin Lab logo, funding agencies logos, lab photo, B-cell lymphomas overview etc). Please place the images in the `src/` folder to keep the structure of the presentation tidy.
+
+## Customizing the style
+
+For advanced users, plese see the file `_extensions/morinlab/morinlab-presentation/custom.scss` to find the formatting reference and customize the appearance of the presentation.
