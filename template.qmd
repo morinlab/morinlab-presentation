@@ -138,7 +138,7 @@ title-slide-attributes:
 ::::
 
 ::: {.fragment}
-Did you notice that the slide title is not capitalized here?
+Did you notice that the slide title is capitalized here? :grin:
 :::
 
 ## Columns with image + text
