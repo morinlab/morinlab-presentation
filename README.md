@@ -1,23 +1,45 @@
-# <%= title %> Format
+# Morinlab-presentation Quarto template
+
+This is a Quarto extension to simplify preparation of the presentations in the Morin Lab.
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+mkdir presentation
+cd presentation
+quarto use template morinlab/morinlab-presentation
 ```
+While executing the last command, the prompt will ask you 3 questions:
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+- `? Do you trust the authors of this template (Y/n) ›`  Here, answer `Y` (or press Enter)
+- `? Create a subdirectory for template? (y/N) ›` Here, answer `N` (or press Enter)
+- `? Would you like to continue (Y/n) ›` Here, answer `Y` (or press Enter)
+
+This will install the extension and create an example qmd file that you can use as a starting place for your presentation.
 
 ## Using
 
-*TODO*: Describe how to use your format.
+After installation, the directory will be populated with required files and directories. The support files are placed in the directory `src/`, while the main required files are in the directory home.
 
-## Format Options
+```
+.
+├── _extensions
+│   └── morinlab
+├── presentation.qmd
+├── _quarto.yml
+└── src
+    ├── bad_code.png
+    ├── bl-abstract.png
+    ├── common_problems.png
+    ├── dlbcl_coo.jpg
+    ├── dlbcl.jpg
+    ├── gc.png
+    ├── logos.png
+    ├── note.png
+    └── team.png
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
+3 directories, 11 files
+```
 
-## Example
+Described below are several main components for the presentation:
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
