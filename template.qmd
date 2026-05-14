@@ -179,21 +179,20 @@ Did you notice that the slide title is capitalized here? :grin:
 
 :::: columns
 
-::: {.column width="65%"}
+::: {.column width="55%"}
 * Notice how the font is different here for the title slide and the items in the list
 * [GAMBLR.data](https://github.com/morinlab/GAMBLR.data) - collection of genomic data for analysis of Mature B-cell neoplasms
 * [GAMBLR.helpers](https://github.com/morinlab/GAMBLR.helpers) - a set of low-level functions for data operation
 
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 
 ```{mermaid}
 flowchart TD
   A("GAMBLR.data") --> B("GAMBLR.helpers")
   B --> C("GAMBLR.utils")
-  C --> D("GAMBLR.viz")
-  D --> E{"GAMBL member?"}
+  C --> E{"GAMBL member?"}
   E -- YES --> F("GAMBLR.results")
   E -- NO --> A
 ```
