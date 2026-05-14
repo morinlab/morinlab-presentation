@@ -1,5 +1,5 @@
 ---
-title: MorinLab manuscript template
+title: MorinLab presentation template
 author: "**Morin Lab at SFU^*1,2,3*^**"
 format: morinlab-presentation-revealjs
 institute: |
